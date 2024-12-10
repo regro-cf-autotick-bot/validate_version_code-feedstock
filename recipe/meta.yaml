@@ -1,13 +1,13 @@
 {% set name = "validate_version_code" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/validate_version_code-{{ version }}.tar.gz
-  sha256: 5d766d1b9b9c10f354542f6376bfd764037c8bdf4f6e59dfc9ed60dc14e2600b
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/validate_version_code-{{ version }}.tar.gz
+  sha256: 70b1ec0474b7280339da3de2214ba8804c39a6d0290cd00905c8348796fa6dd5
 
 build:
   noarch: python
